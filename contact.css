@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+}
+.topnav{
+    background-color: rgb(31, 46, 78);
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-between;
+    color: rgb(108, 117, 125);
+    align-items: center;
+    padding:  5px 150px 5px 150px;
+}
+.topnav article{
+    display: flex;
+    /* border: 2px solid black; */
+    /* margin: 0px 150px 0px 150px; */
+}
+.topnav1 div{
+    margin: 10px;
+    text-align: center;
+}
+.topnav1 i{
+    margin-right: 5px;
+    color: rgb(234, 0, 30);
+    
+}
+.topnav2 i{
+    color: rgb(234, 0, 30);
+    background-color: white;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    /* height: 10px;
+    width: 10px; */
+}
+
+.topnav2 i:hover {
+    color: white;
+    background-color:  rgb(234, 0, 30);
+    cursor: pointer;
+}
+
+/*=========================mainnav============================*/
+
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 150px 20px 150px;
+    /* border: 2px solid black; */
+    align-items: center;
+}
+
+.mainnav1{
+    font-size: 36px;
+    color: rgb(234, 0, 30);
+}
+.mainnav1 span{
+    margin-left: 10px;
+    font-weight: 800;
+}
+.mainnav2 {
+    display: flex;
+}
+.mainnav2 a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(0, 12, 33);
+}
+
+.mainnav2 a:hover{
+    color: rgb(234, 0, 30);
+    transition: 0.5s;
+}
+.mainnav3{
+    background-color: rgb(234, 0, 30);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mainnav3:hover{
+    background-color: rgb(31, 46, 78);
+    cursor: pointer;
+}
+/* ========================================herosection======================= */
+.hero{
+    text-align: center;
+    background-color: black;
+    height: 300px;
+    color: rgb(234, 0, 30);
+    display:block;
+    align-content: center;
+
+}
+.hero h1{
+    font-size: 48px;
+    color: white;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    
+}
+/* ============================================mainpage============== */
+
+.mainpage0{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.mainpage1{
+    background-color: #1f2e4e;
+    /* height: 700px; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px ;
+}
+.formstyle div input::placeholder{
+    color: black; 
+    font-size: 16px;
+}
+.formstyle h1{
+    color: rgb(234, 0, 30);
+}
+
+.formstyle article {
+    display: flex;
+    justify-content: center;
+}
+.formstyle article {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.formstyle article div input{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.formstyle .subject input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
+.formstyle .message input{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: red;
+}
+.formstyle button{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(234, 0, 30);
+    border: none;
+    outline: none;
+    margin: 20px;
+}
+.formstyle button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(234, 0, 30);
+    transition: all 1s;
+}
+.formstyle div input{
+    border: none;
+    outline: none;
+    margin: 20px 10px 20px 10px;
+    
+}
+/* ======================== */
+.mainpage2 i{
+    
+    padding: 30px;
+    color:  rgb(234, 0, 30);
+    background-color:  rgb(108, 117, 125);
+    border-radius: 50px;
+    margin: 20px;
+}
+.mainpage2 i:hover{
+cursor:pointer;
+background-color: rgb(234, 0, 30);
+color: white;
+}
+/* ================ */
+.mainpage3{
+    height: 600px;
+    width: 400px;
+    background-color:  rgb(108, 117, 125);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.mainpage3 div{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    text-align: center;
+    
+    margin: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.mainpage3 div span{
+    font-size:24px ;
+}
+/* ===============================fotter================ */
+.twelve{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000C21;
+    align-items: center;
+    margin-top: 40px;
+}
+.twelve div{
+    margin-top: 100px;
+    height: 400px;
+}
+.twelve h1{
+    color: white;
+}
+.twelve1{
+    color:  #6e7684;
+}
+.twelve1 .twe{
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: white;
+    z-index: 0;
+    position: absolute;
+}
+.twelve1 .twe1{
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    background-color: #1f2e4e;
+    color: white;
+    margin: 20px 0px 0px 160px;
+    z-index: 1;
+    position: absolute;
+}
+.twelve1 .twe1:hover{
+    cursor: pointer;
+    background-color:rgb(234, 0, 30);
+    transition: all 1s;
+}
+.twelve2 span{
+    color: #6e7684;
+}
+.twelve3{
+    color: #6e7684;
+}
+.twelve3 span{
+    color:white;
+    
+}
+.twelve4{
+    color: #6e7684;
+}
+.twelve4 span i{
+    padding: 10px;
+    margin: 10px;
+    background-color:  #6e7684;
+    color: white;
+    border-radius: 50px;
+}
+/* =======================================map ====================*/
+.map{
+    padding: 30px;
+    
+}
+.map div iframe{
+    border-radius: 10px;
+}
+

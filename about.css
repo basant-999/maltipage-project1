@@ -1,0 +1,548 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+}
+.topnav{
+    background-color: rgb(31, 46, 78);
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-between;
+    color: rgb(108, 117, 125);
+    align-items: center;
+    padding:  5px 150px 5px 150px;
+}
+.topnav article{
+    display: flex;
+    /* border: 2px solid black; */
+    /* margin: 0px 150px 0px 150px; */
+}
+.topnav1 div{
+    margin: 10px;
+    text-align: center;
+}
+.topnav1 i{
+    margin-right: 5px;
+    color: rgb(234, 0, 30);
+}
+.topnav2 i{
+    color: rgb(234, 0, 30);
+    background-color: white;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.topnav2 i:hover {
+    color: white;
+    background-color:  rgb(234, 0, 30);
+    cursor: pointer;
+}
+@media(max-width:992px){
+    .topnav{
+        display: none;
+    }
+}
+
+/*=========================mainnav============================*/
+
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 150px 20px 150px;
+    /* border: 2px solid black; */
+    align-items: center;
+}
+
+.mainnav1{
+    font-size: 36px;
+    color: rgb(234, 0, 30);
+}
+.mainnav1 span{
+    margin-left: 10px;
+    font-weight: 800;
+}
+.mainnav2 {
+    display: flex;
+}
+.mainnav2 a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(0, 12, 33);
+}
+
+.mainnav2 a:hover{
+    color: rgb(234, 0, 30);
+    transition: 0.5s;
+}
+.mainnav3{
+    background-color: rgb(234, 0, 30);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mainnav3:hover{
+    background-color: rgb(31, 46, 78);
+    cursor: pointer;
+}
+
+@media (max-width:992px){
+    .mainnav2 a{
+        display: none;
+    }
+}
+
+/* ========================================herosection======================= */
+.hero{
+    text-align: center;
+    background-color: black;
+    height: 300px;
+    color: rgb(234, 0, 30);
+    display:block;
+    
+    align-content: center;
+
+}
+.hero h1{
+    font-size: 48px;
+    color: white;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+/* ======================================third section=================== */
+
+.third{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ .maindiv0{
+    font-size: 40px;
+    font-weight: 700px;
+    letter-spacing: 0.5px;
+    margin-top: 100px;
+    text-align: center;
+}
+.maindiv0 span{
+    color: rgb(234, 0, 30);
+}
+ .third p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(110, 118, 132);
+}
+
+ .maindiv1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    /* margin-top: 30px; */
+    
+}
+.maindiv1 div span{
+    color:black;
+    font-size: 24px;
+}
+.maindiv1 div img{
+    /* background-color: rgb(234, 0, 30); */
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+}
+.maindiv1 div img:hover{
+    cursor: pointer;
+    transition: all 1s;
+    background-color: rgb(234, 0, 30);
+}
+.maindiv1 div {
+    height: 220px;
+    width: 250px;
+    background-color: rgb(110, 118, 132);
+    border-radius: 10px;
+    color: white;
+    margin: 10px ;
+    text-align: center;
+}
+ 
+.maindiv2{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.maindiv2 .div1{
+    background-color: #1f2e4e;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 220px;
+    border-radius: 10px; 
+    
+}
+.maindiv2 .div1 span{
+    font-size: 32px;
+    font-weight: 700px;
+}
+.maindiv3{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center; 
+    margin-top: 20px;  
+   
+}
+.maindiv3 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(234, 0, 30);
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    
+}
+.maindiv3 button:hover{
+    
+    cursor: pointer;
+    background-color: #1f2e4e;
+    transition: all 1s;
+}
+.maindiv3 img{
+    border-radius: 50px;
+}
+.maindiv3 .burg{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.maindiv3 .burg span{
+    font-size: 24px;
+}
+/* ========================================== */
+.third2{
+    position: relative;
+}
+.third2img1{
+    z-index: 0;
+    margin-top: 100px;
+}
+.third2img2{
+    z-index: 1;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.third2 img{
+    border-radius: 20px;
+}
+
+@media(max-width:992){
+    .third {
+        display:none;
+    }
+    
+}
+
+/* =====================forthsection==================== */
+.forthpage{
+    height: 300px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+}
+.forthpage div{
+    
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.forthpage div span{
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: "Lato", sans-serif;
+}
+
+
+@media(max-width:992){
+    .forthpage{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+/* ==========second section================= */
+
+.section2{
+    background-color: rgb(242, 242, 242);
+    color: rgb(110, 118, 132);
+    font-family: "Lato", sans-serif;
+    height: 80vh;
+    /* text-align: center; */
+    padding: 80px 150px 80px 150px;
+}
+
+.section2head{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 12, 33);
+    letter-spacing: 0.5px;
+    margin: 10px;
+    text-align: center;
+}
+.section2head span{
+    color: rgb(234, 0, 30);
+}
+.section2 p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details span{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:"Montserrat", sans-serif ;
+    color: rgb(0, 12, 33);
+    
+}
+.details div{
+    margin: 40px;
+}
+
+/* ======================================siven section==================== */
+.siven{
+    height: 400px;
+    background-color: black;
+    color: white;
+    /* align-items: center; */
+    /* text-align: center; */
+    
+}
+.siven .sc{
+    font-size: 40px;
+    font-weight: 700px;
+    letter-spacing: 0.5px;
+    margin-top: 20px ;
+    text-align: center;
+}
+.sc span{
+    color: rgb(234, 0, 30);
+}
+.siven p{
+    
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    /* color: rgb(110, 118, 132) */
+
+}
+.siven1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+   
+}
+.siven1 div{
+    background-color: #07214e;
+    color: white;
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.siven1 div span{
+    font-size: 24px;
+    
+}
+.siven .siven1 div{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+/* ===================tensection============================= */
+.ten .csc{
+    font-size: 40px;
+    font-weight: 700px;
+    letter-spacing: 0.5px;
+    margin-top: 100px;
+    text-align: center;
+}
+.csc span{
+    color: rgb(234, 0, 30);
+}
+.ten  p{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+        color: rgb(110, 118, 132)
+}
+.ten0{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+.ten0 div img{
+    height: 200px;
+    border-radius: 10px;
+    width: 200px;
+    /* margin: 20px; */
+}
+.ten0 div{
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    color: white;
+    background-color: #6e7684;
+    margin: 20px;
+    border-radius: 10px;
+}
+.ten0 div:hover{
+    background-color: #000C21;
+    cursor: pointer;
+    transition: all 1s;
+}
+.ten0 div i{
+    margin: 10px;
+    padding: 5px;
+}
+
+/* =====================================ninesection======================== */
+.nine{
+    background-color: #000C21;
+    height: 500px;
+    color: white;
+    background-image: url(https://themewagon.github.io/Cental/img/banner-1.jpg);
+    
+ }
+ .nine h1{
+     margin-left: 700px;
+     font-size: 64px;
+ }
+ .nine h3{
+     color: rgb(234, 0, 30);
+     font-size: 48px;
+     margin-left: 1000px;
+ }
+ .nine h2{
+     font-size: 32px;
+     margin-left: 800px;
+ }
+ .nine0{
+     display: flex;
+     margin: 100px 200px 0px 0px;
+     justify-content: right;
+ }
+  .nine1 button{
+     background-color: #1f2e4e;
+     color: white;
+     height: 50px;
+     width: 150px;
+     border-radius: 30px;
+ }
+ .nine1 button:hover{
+     cursor: pointer;
+     background-color: rgb(234, 0, 30);
+ }
+ .nine2 button{
+     background-color: rgb(234, 0, 30);
+     color: white;
+     height: 50px;
+     width: 150px;
+     margin-left: 50px;
+     border-radius: 30px;
+ }
+ .nine2 button:hover{
+     cursor: pointer;
+     background-color:  #1f2e4e;
+ }
+
+ 
+/* ====================================twelve section================ */
+.twelve{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000C21;
+    align-items: center;
+}
+.twelve div{
+    margin-top: 100px;
+    height: 400px;
+}
+.twelve h1{
+    color: white;
+}
+.twelve1{
+    color:  #6e7684;
+}
+.twelve1 .twe{
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: white;
+    z-index: 0;
+    position: absolute;
+}
+.twelve1 .twe1{
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    background-color: #1f2e4e;
+    color: white;
+    margin: 20px 0px 0px 160px;
+    z-index: 1;
+    position: absolute;
+}
+.twelve1 .twe1:hover{
+    cursor: pointer;
+    background-color:rgb(234, 0, 30);
+    transition: all 1s;
+}
+.twelve2 span{
+    color: #6e7684;
+}
+.twelve3{
+    color: #6e7684;
+}
+.twelve3 span{
+    color:white;
+    
+}
+.twelve4{
+    color: #6e7684;
+}
+.twelve4 span i{
+    padding: 10px;
+    margin: 10px;
+    background-color:  #6e7684;
+    color: white;
+    border-radius: 50px;
+}
